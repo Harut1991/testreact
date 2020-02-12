@@ -18,8 +18,6 @@ function Hook() {
   return (
     <React.Fragment>
       <p onClick={() => setItem(item + 1)}>{item}</p>
-      
-      {/* <Test2 sas={state} /> */}
     </React.Fragment>
   )
 }
